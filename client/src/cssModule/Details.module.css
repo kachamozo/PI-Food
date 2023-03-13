@@ -1,0 +1,8 @@
+.bkg {
+    background-color: lightgrey;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
