@@ -74,6 +74,7 @@ const getAll = async (req, res) => {
 // aqui empieza la ruta by Id
 const getById = async (req, res) => {
 	const { idRecipe } = req.params;
+	console.log(idRecipe);
 	if (idRecipe.includes('-')) {
 		try {
 			let recipeDb = await Recipe.findOne({
